@@ -1,0 +1,74 @@
+[
+    {
+        "lbl":"FullName",
+        "type":"text",
+         "errMsg":"",
+        "name":"fullname",
+        "value":"",
+        "criteria":["Required"]
+    },
+    {
+        "lbl":"UserName",
+        "type":"text",
+         "errMsg":"",
+        "name":"Uname",
+        "value":"",
+        "criteria":["Required","EmailFormat"]
+    },
+    {
+        "lbl":"Password",
+        "type":"password",
+        "errMsg":"",
+        "name":"pwd",
+        "value":"",
+        "criteria":["Required","Min5Chars"]
+    },
+    {
+        "lbl":"PhoneNumber",
+        "type":"number",
+         "errMsg":"",
+        "name":"Phnum",
+        "value":"",
+        "criteria":["Required","Exact10Digits"]
+    },
+     {
+        "lbl":"Gender",
+        "type":"radio",
+         "errMsg":"",
+        "name":"gender",
+        "value":"",
+        "criteria":["Required"],
+        "options" :["Male","Female"],
+        "values" :["M","F"]
+    },
+    {
+        "lbl":"Hobbies",
+        "type":"checkbox",
+         "errMsg":"",
+        "name":"hobbies",
+        "value":"",
+        "criteria":["Required"],
+        "options" :["Cricket","Football","Hockey"],
+        "values" :["cri","Fb","Hoc"]
+    },
+    {
+        "lbl":"Country",
+         "tag":"select",
+         "errMsg":"",
+        "name":"country",
+        "value":"India",
+        "criteria":["Required"],
+        "options" :["Narvey","America","India"],
+        "values" :["Narvey","America","india"]
+    },
+    {
+        "lbl":"Address",
+         "tag":"textarea",
+         "errMsg":"",
+        "name":"address",
+        "value":"",
+        "criteria":["Required"]
+    }
+
+
+]

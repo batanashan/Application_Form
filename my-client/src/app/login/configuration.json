@@ -1,0 +1,18 @@
+[
+    {
+        "lbl":"UserName",
+        "type":"text",
+         "errMsg":"",
+        "name":"Uname",
+        "value":"",
+        "criteria":["Required","EmailFormat"]
+    },
+    {
+        "lbl":"Password",
+        "type":"password",
+        "errMsg":"",
+        "name":"pwd",
+        "value":"",
+        "criteria":["Required"]
+    }
+]
